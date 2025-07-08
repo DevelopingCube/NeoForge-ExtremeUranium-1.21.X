@@ -12,5 +12,14 @@
   "block.extremeuranium.withered_grass_block": "Withered Grass Block",
 
   "creativetab.extremeuranium.uranium_items":  "Uranium Items",
-  "creativetab.extremeuranium.uranium_blocks":  "Uranium Blocks"
+  "creativetab.extremeuranium.uranium_blocks":  "Uranium Blocks",
+
+  "tooltip.extremeuranium.decayedgrass.tooltip" : "Grass killed by harsh Thorium",
+  "tooltip.extremeuranium.syringe.shiftdown": "Hit §eRMBt§r with Uranium inside to inject Mobs/Players.",
+  "tooltip.extremeuranium.syringe": "Hold §eShift§r for more information.",
+  "toolip.extremeuranium.decayed_tropical_fish": "A tropical fish, Uranium made it tastes bitter. Makes you feel your mining's faster.",
+  "toolip.extremeuranium.decayed_salmon": "Rancid salmon from soaking in Uranium, makes you feel faster.",
+  "toolip.extremeuranium.decayed_cod": "Uranium drenched Cod, it hurts to eat, but makes you feel stronger.",
+  "toolip.extremeuranium.decayed_pufferfish": "The Uranium made it hurt worse."
+
 }

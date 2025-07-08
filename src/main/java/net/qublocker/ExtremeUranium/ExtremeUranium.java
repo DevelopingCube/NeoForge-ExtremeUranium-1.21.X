@@ -56,7 +56,27 @@ public class ExtremeUranium {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-      //  if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {}
+       if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+           event.accept(ModItems.URANIUM);
+           event.accept(ModItems.RAW_URANIUM);
+           event.accept(ModItems.URANIUM_BLOB);
+
+       }
+
+       if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS){
+           event.accept(ModItems.DECAYED_SALMON);
+           event.accept(ModItems.DECAYED_PUFFERFISH);
+           event.accept(ModItems.DECAYED_TROPICAL_FISH);
+           event.accept(ModItems.DECAYED_COD);
+       }
+
+       if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
+           event.accept(ModBlocks.URANIUM_BLOCK);
+           event.accept(ModBlocks.URANIUM_CRYSTAL);
+           event.accept(ModBlocks.URANIUM_ORE);
+           event.accept(ModBlocks.WITHERED_GRASS_BLOCK);
+           event.accept(ModBlocks.COBBLED_RADROCK);
+       }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

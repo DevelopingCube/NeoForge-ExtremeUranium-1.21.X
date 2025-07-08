@@ -5,7 +5,7 @@ import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
 
 public class ModFoodProperties {
-    public static final FoodProperties DECAYED_COD = new FoodProperties.Builder()
+    public static final FoodProperties DECAYED_FISH = new FoodProperties.Builder()
             .nutrition(-1)
             .saturationModifier(0f)
             .alwaysEdible()
