@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 220,
+  "experience": 1,
+  "group": "uranium",
+  "ingredient": {
+    "item": "extremeuranium:raw_uranium"
+  },
+  "result": {
+    "id": "extremeuranium:uranium"
+  }
+}

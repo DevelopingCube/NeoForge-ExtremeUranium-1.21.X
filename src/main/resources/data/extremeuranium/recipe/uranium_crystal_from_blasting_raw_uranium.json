@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 120,
+  "experience": 1,
+  "group": "uranium",
+  "ingredient": {
+    "item": "extremeuranium:raw_uranium"
+  },
+  "result": {
+    "id": "extremeuranium:uranium"
+  }
+}

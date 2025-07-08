@@ -13,6 +13,15 @@ public class ModItems {
     public static final DeferredItem<Item> URANIUM = ITEMS.register("uranium",
             () -> new Item(new Item.Properties()));
 
+   public static final DeferredItem<Item> URANIUM_BLOB = ITEMS.register("uranium_blob",
+           ()-> new Item(new Item.Properties()));
+
+   public static final DeferredItem<Item> RAW_URANIUM = ITEMS.register("raw_uranium",
+           ()-> new Item(new Item.Properties()));
+
+   public  static final DeferredItem<Item> DECAYED_COD = ITEMS.register("decayed_cod",
+           ()-> new Item(new Item.Properties().food(ModFoodProperties.DECAYED_COD)));
+
     public  static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }

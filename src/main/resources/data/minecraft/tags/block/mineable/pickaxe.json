@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "extremeuranium:uranium_block",
+    "extremeuranium:cobbled_radrock",
+    "extremeuranium:uranium_radrock",
+    "extremeuranium:uranium_crystal"
+  ]
+}

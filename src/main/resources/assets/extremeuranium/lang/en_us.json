@@ -3,10 +3,13 @@
   "item.extremeuranium.uranium_blob": "Uranium Blob",
   "item.extremeuranium.raw_uranium": "Raw Uranium",
 
+  "item.extremeuranium.decayed_cod": "Decayed Cod",
+
   "block.extremeuranium.uranium_block": "Block of Uranium",
   "block.extremeuranium.uranium_crystal": "Uranium Cluster",
   "block.extremeuranium.cobbled_radrock": "Cobbled Radrock",
   "block.extremeuranium.uranium_radrock": "Uranium Radrock ",
+  "block.extremeuranium.withered_grass_block": "Withered Grass Block",
 
   "creativetab.extremeuranium.uranium_items":  "Uranium Items",
   "creativetab.extremeuranium.uranium_blocks":  "Uranium Blocks"
